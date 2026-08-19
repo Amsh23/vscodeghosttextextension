@@ -18,5 +18,11 @@
         "title": "My Ghost Code: Reload Codes"
       }
     ]
-  }
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check extension.js && node --check test/extension.test.js",
+    "package": "npm pack --dry-run"
+  },
+  "devDependencies": {}
 }
