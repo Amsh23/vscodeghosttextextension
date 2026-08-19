@@ -1,0 +1,22 @@
+{
+  "name": "my-ghost-code",
+  "displayName": "My Ghost Code",
+  "description": "Offline personal code memory using VS Code Inline Completion API.",
+  "version": "1.0.0",
+  "publisher": "my-ghost-code",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "my-ghost-code.reloadCodes",
+        "title": "My Ghost Code: Reload Codes"
+      }
+    ]
+  }
+}
